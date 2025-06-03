@@ -1,4 +1,4 @@
-import { HeroDefault } from "./../partials/Hero.js";
+import { HeroDefault } from "./templates/partials/Hero.js";
 
 export const HomePage = `
               ${HeroDefault}

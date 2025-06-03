@@ -1,4 +1,4 @@
-import Testimonials from "../partials/Testimonials.js";
+import Testimonials from "./templates/partials/Testimonials.js";
 
 export const PagePages = `
 <section class="row mb-4">

@@ -1,15 +1,11 @@
 import express from 'express';
-import { Router } from 'express';
-import * as  projectsRouter from '../../controllers/api/projectsRouter';
+import { upload } from './../../config/storage';
+import  * as projectsController from './../../controllers/api/projectsController';
+
 const router = express.Router();
 
-
-
-router.get('/', projectsRouter.getAll);
-router.get('/:id', projectsRouter.getItem);
-router.post('/', projectsRouter.postItem);
-router.put('/:id', projectsRouter.putItem);
-router.delete('/:id', projectsRouter.deleteItem);
+router.get('/projects', projectsController.getAll);
+router.post('/projects/create', upload.single('imgUrl'), projectsController.createProject);
 
 
 export default router;

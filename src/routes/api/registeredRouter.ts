@@ -5,11 +5,11 @@ const router = express.Router();
 
 
 
-router.get('/', registeredController.getAll);
-router.get('/:id', registeredController.getItem);
-router.post('/', registeredController.postItem);
-router.put('/:id', registeredController.putItem);
-router.delete('/:id', registeredController.deleteItem);
+router.get('/projects', registeredController.getAll);
+router.get('/projects/:id', registeredController.getItem);
+router.post('/projects', registeredController.postItem);
+router.put('/projects/:id', registeredController.putItem);
+router.delete('/projects/:id', registeredController.deleteItem);
 
 
 export default router;

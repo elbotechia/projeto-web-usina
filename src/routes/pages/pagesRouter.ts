@@ -3,11 +3,11 @@ import * as pagesController from '../../controllers/pages/pagesController';
 import path from 'path';
 const router = Router();
 
-router.get('/educar', pagesController.getPage0);
+router.get('/projects', pagesController.getPageProjects);
 router.get('/usina', pagesController.getPage1);
 router.get('/coletivo', pagesController.getPage2);
 router.get('/blog', pagesController.getPage3);
-router.get('/educar', pagesController.getPage4);
+router.get('/projects', pagesController.getPage4);
 router.get('/agenda', pagesController.getPage5);
 router.get('/loja', pagesController.getPage6);
 router.get('/doar', pagesController.getPage7);

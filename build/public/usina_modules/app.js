@@ -1,5 +1,5 @@
-import { templates } from './templates/pages.js';
-
+import { templates } from '/usina_modules/pages.js';
+console.log(templates);
 const getElementPageHtml = () => {
     const getLocationPath = window.location.href;
     const split2Confirm = getLocationPath.split('/').pop();

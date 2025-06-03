@@ -1,3 +1,8 @@
 import {Server} from './models/server';
 
-const server = new Server();
+const main = async()=>{
+const server = await new Server();
+server.listen();
+}
+
+main()

@@ -9,11 +9,11 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getPage12 = exports.getPage11 = exports.getPage10 = exports.getPage9 = exports.getPage8 = exports.getPage7 = exports.getPage6 = exports.getPage5 = exports.getPage4 = exports.getPage3 = exports.getPage2 = exports.getPage1 = exports.getPage0 = void 0;
-const getPage0 = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    res.status(200).sendFile('usina.html', { root: 'build/public' });
+exports.getPage12 = exports.getPage11 = exports.getPage10 = exports.getPage9 = exports.getPage8 = exports.getPage7 = exports.getPage6 = exports.getPage5 = exports.getPage4 = exports.getPage3 = exports.getPage2 = exports.getPage1 = exports.getPageProjects = void 0;
+const getPageProjects = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    res.status(200).sendFile('educar.html', { root: 'build/public' });
 });
-exports.getPage0 = getPage0;
+exports.getPageProjects = getPageProjects;
 const getPage1 = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     res.status(200).sendFile("usina.html", { root: "build/public" });
 });

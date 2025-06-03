@@ -1,4 +1,4 @@
-import { URL } from "./../../CONSTANTS/URL.js"
+import { URL } from "./CONSTANTS/URL.js"
 
 export const ContatoPage = `
 

@@ -39,10 +39,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const registeredController = __importStar(require("../../controllers/api/registeredController"));
 const router = express_1.default.Router();
-router.get('/', registeredController.getAll);
-router.get('/:id', registeredController.getItem);
-router.post('/', registeredController.postItem);
-router.put('/:id', registeredController.putItem);
-router.delete('/:id', registeredController.deleteItem);
+router.get('/projects', registeredController.getAll);
+router.get('/projects/:id', registeredController.getItem);
+router.post('/projects', registeredController.postItem);
+router.put('/projects/:id', registeredController.putItem);
+router.delete('/projects/:id', registeredController.deleteItem);
 exports.default = router;
 //# sourceMappingURL=registeredRouter.js.map

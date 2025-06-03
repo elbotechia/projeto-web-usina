@@ -1,8 +1,11 @@
 import { Request, Response } from "express";
 
 
-export const getPage0= async(req: Request, res: Response) => {
-    res.status(200).sendFile('usina.html',{root: 'build/public'  });    
+
+
+
+export const getPageProjects= async(req: Request, res: Response) => {
+    res.status(200).sendFile('educar.html',{root: 'build/public'  });    
 };
 
 export const getPage1= async(req: Request, res: Response) => {

@@ -3,16 +3,24 @@ import Testimonials from "./templates/partials/Testimonials.js";
 export const ColetivoPage = `
     <div class="col-12" id="content">
       <div class="timeline">
-        <header class="section__header text-light p-4 text-center">
+        <header class="section__header text-light h-100 text-center">
           <h2 class="section__title">O COLETIVO</h2>
           <p>Conheça um pouco mais sobre <strong>NOSSA TRAJETÓRIA</strong></p>
+           <div class="btn-hero-container">
+                        <a href="#about" class="btn btn-hero">SOBRE NÓS</a>
+                        <a href="/coletivo" class="btn btn-hero">O COLETIVO</a>
+                        <a href="/blog" class="btn btn-hero"> BLOG </a>
+                        <a href="/doar" class="btn btn-hero"> DOE </a>
+                        <a href="/eventos" class="btn btn-hero"> EVENTOS </a>
+                        <a href="/contact" class="btn btn-hero"> CONTATO </a>
+                      </div>
         </header>
         <div class="outer">
-          <article class="cardTimeline">
-            <div class="container">
-              <div class="row">
+          <article class="cardTimeline section__header" id="about">
+            <div class="container mt-5">
+              <div class="row pt-5">
                 <div class="col-12 col-md-6">
-                  <div class="info">
+                  <div class="info" >
                     <h3 class="title">SOBRE NÓS</h3>
                     <p>
                       O <strong>Coletivo Usina Eco-Cultural</strong> é uma
@@ -149,4 +157,4 @@ export const ColetivoPage = `
 
       </div>
     
-`
+`;

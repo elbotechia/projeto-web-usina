@@ -37,12 +37,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
-const projectsRouter = __importStar(require("../../controllers/api/projectsRouter"));
+const storage_1 = require("./../../config/storage");
+const projectsController = __importStar(require("./../../controllers/api/projectsController"));
 const router = express_1.default.Router();
-router.get('/', projectsRouter.getAll);
-router.get('/:id', projectsRouter.getItem);
-router.post('/', projectsRouter.postItem);
-router.put('/:id', projectsRouter.putItem);
-router.delete('/:id', projectsRouter.deleteItem);
+router.get('/projects', projectsController.getAll);
+router.post('/projects/create', storage_1.upload.single('imgUrl'), projectsController.createProject);
 exports.default = router;
 //# sourceMappingURL=projectsRouter.js.map

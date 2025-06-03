@@ -1,4 +1,4 @@
-import {mapPortfolios} from "../partials/Portfolios.js";
+import {mapPortfolios} from "./templates/partials/Portfolios.js";
 
 export const EducationPage = (`
     <section class="container-testimonial container mb-4 pb-4">
