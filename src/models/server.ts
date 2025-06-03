@@ -43,11 +43,11 @@ export class Server {
   middlewares() {
     this.app.use(express.static(path.resolve("build/public")));
     this.app.use(express.static(path.resolve("build/storage")));
-
-    this.app.use(express.json());
-    this.app.use(express.urlencoded({ extended: true }));
     this.app.use(morgan("dev"));
     this.app.use(cors());
+    this.app.use(express.json());
+    this.app.use(express.urlencoded({ extended: true }));
+
   }
 
   routes() {
