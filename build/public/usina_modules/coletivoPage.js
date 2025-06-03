@@ -51,7 +51,7 @@ export const ColetivoPage = `
                 <div class="col-12 col-md-6">
                 <!--segunda imagem-->
 <img
-                      src="./../assets/photos/photo002_participantes1-casal-de-participantes.png"
+                      src="/assets/photos/photo002_participantes1-casal-de-participantes.png"
                       class="rounded-4 img-fluid"
                     />                </div>
                 <div class="col-12 col-md-6">
@@ -84,7 +84,7 @@ export const ColetivoPage = `
                   <div class="container">
                   <!--terceira imagem-->
                    <img
-                      src="./../assets/photos/photo001_metas-do-milenio.png"
+                      src="/assets/photos/photo001_metas-do-milenio.png"
                       class="rounded-4 img-fluid"
                     />
                   </div>
@@ -98,7 +98,7 @@ export const ColetivoPage = `
                 <div class="col-12 col-md-6">
                 <div class="container">
                     <img
-                      src="./../assets/svg/svg005_map.svg"
+                      src="/assets/svg/svg005_map.svg"
                       class="rounded-4 img-fluid"
                     />
                   </div>
@@ -121,14 +121,14 @@ export const ColetivoPage = `
                   <div class="p-4">
                    <p>Nos apoie assinando nossa <strong>petição pública OFICIAL</strong> na conhecida plataforma <strong>Avaaz.org</strong> conhecida por <em>recolher assinaturas de forma transparente</em> o link se econtra abaixo</p>
 
-                    <a href="https://secure.avaaz.org/community_petitions/po/prefeitura_municipal_de_sao_paulo_eu_apoio_incinerador_vergueiro_devera_ser_um_espaco_de_conscientizacao_ambiental_e_vida/" target="_blank" class="btn btn-success"> PETIÇÃO AVAAZ em 1 <img width="24px" height="24px" src="./../assets/svg/svg006_pointer.svg" alt="icon de cursor de mouse"/> </a>
+                    <a href="https://secure.avaaz.org/community_petitions/po/prefeitura_municipal_de_sao_paulo_eu_apoio_incinerador_vergueiro_devera_ser_um_espaco_de_conscientizacao_ambiental_e_vida/" target="_blank" class="btn btn-success"> PETIÇÃO AVAAZ em 1 <img width="24px" height="24px" src="/assets/svg/svg006_pointer.svg" alt="icon de cursor de mouse"/> </a>
                   </div>
                   </div>
                 </div>
                 <div class="col-12 col-md-6 mt-4 pt-4">
                
                     <img
-                      src="./../assets/brand/avaazOrg.png"
+                      src="/assets/brand/avaazOrg.png"
                       class="rounded-4 img-fluid"
                     />
        
