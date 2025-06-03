@@ -43,7 +43,7 @@ class Server {
             products: '/api/products'
         };
         this.pagesPaths = {
-            pages: '/pages'
+            pages: '/'
         };
         this.app = (0, express_1.default)();
         this.port = port;

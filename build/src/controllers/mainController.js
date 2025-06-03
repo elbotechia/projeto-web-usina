@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getMain = void 0;
 const getMain = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    res.status(200).sendFile('base.html', { root: 'build/public' });
+    res.status(200).sendFile('INDEX.html', { root: 'build/public' });
 });
 exports.getMain = getMain;
 //# sourceMappingURL=mainController.js.map

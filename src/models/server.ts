@@ -44,7 +44,7 @@ export class Server {
 
 
     private pagesPaths ={
-        pages: '/pages'
+        pages: '/'
     }
 
     constructor() {

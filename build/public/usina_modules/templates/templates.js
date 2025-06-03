@@ -1,13 +1,13 @@
-import { BlogPage } from "./pages/blogPage.js";
-import { ColetivoPage } from "./pages/coletivoPage.js";
-import { ContatoPage } from "./pages/contatoPage.js";
-import { HomePage } from "./pages/homePage.js";
-import { LoginPage } from "./pages/LoginPage.js";
-import { LojinhaPage } from "./pages/lojinhaPage.js";
-import { SchedulePage } from "./pages/schedulePage.js";
-import { SupporterPage } from "./pages/supporterPage.js";
-import { SupportersPage } from "./pages/supportersPage.js";
-import { TimelinePage } from "./pages/timelinePage.js";
+import { BlogPage } from "./blogPage.js";
+import { ColetivoPage } from "./coletivoPage.js";
+import { ContatoPage } from "./contatoPage.js";
+import { HomePage } from "./homePage.js";
+import { LoginPage } from "./LoginPage.js";
+import { LojinhaPage } from "./lojinhaPage.js";
+import { SchedulePage } from "./schedulePage.js";
+import { SupporterPage } from "./supporterPage.js";
+import { SupportersPage } from "./supportersPage.js";
+import { TimelinePage } from "./timelinePage.js";
 import { Navbar4Index } from "./partials/Navbar.js";
 const renderApp = (data2Inject) => {
     const { targetId, template } = data2Inject;

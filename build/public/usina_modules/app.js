@@ -1,4 +1,4 @@
-import { templates } from './templates/pages/pages.js';
+import { templates } from './templates/pages.js';
 
 const getElementPageHtml = () => {
     const getLocationPath = window.location.href;

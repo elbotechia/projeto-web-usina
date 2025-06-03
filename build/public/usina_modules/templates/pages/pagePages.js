@@ -20,7 +20,7 @@ export const PagePages = `
                    <p>Olá, já fui o <strong>INCINERADOR VERGUEIRO</strong>, aquele no coração do bairro do Ipiranga, <em>responsavel por mais de 30 anos por queimar lixo</em>, diria que todos os tipos, <strong> queimei lixo Dom
                    éstico e também Hospitalar</strong> até que <em>por volta dos anos 90, o mercado imobiliario aumentou e meu mau olor começou a icomodar</em>.</p>
                    <p>Mas <em>NÃO ERA SÓ ISSO</em> logo <strong> ME LAUDARAM COMO TÓXICO</strong> parece que contaminei o solo, de fato foi confirmado, eu , o incinerador, <strong>ACHEI QUE ERA O FIM</strong> e até passei por um periodo de abandono quando me fecharam, isso foi em <strong>AUDIÊNCIA PÚBLICA DE FECHAMENTO OFICIAL NO ANO DE 2022 </strong> e com isso tomou força o coletivo, o coletivo da nossa usina, <strong> DEIXOU DE SER INCINERADOR E PASSOU A SER ECO-CULTURAL</strong>
-  <h5 class="color-orange  heading-h2">PRAZER, HOJE SOU <a href="/../pages/coletivo" class="color-green">USINA ECO-CULTURAL...</a></h4>
+  <h5 class="color-orange  heading-h2">PRAZER, HOJE SOU <a href="/coletivo" class="color-green">USINA ECO-CULTURAL...</a></h4>
                    </div>
 </div>                   
 </div>

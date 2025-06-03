@@ -1,23 +1,21 @@
-const renderContentOnTargetId = (targetId, content) => {
-  const targetElement = document.getElementById(targetId);
-  if (targetElement) {
-    targetElement.innerHTML = content;
-  } else {
-    console.error(`Element with ID ${targetId} not found.`);
-  }
-};
+import { ColetivoPage } from "./coletivoPage.js";
 
-const changePage = () => {
-  const location = window.location.pathname;
+console.log("main.js loaded");
 
-  if (location === "/" || location === "/3") {
-    renderContentOnTargetId("app", "<h1>Welcome to the Home Page</h1>");
-  } else if (location.includes("/about")) {
-    renderContentOnTargetId(
-      "app",
-      "<h1>About Us</h1><p>This is the about page.</p>"
-    );
-  }
-};
+const data2Inject1 ={
+  targetId: "app",
+  template: ColetivoPage
+}
 
-changePage();
+const renderApp = (data2Inject) => {
+    const { targetId, template } = data2Inject;
+    const targetElement = document.getElementById(targetId);
+    
+    if (targetElement) {
+        targetElement.innerHTML = template;
+    } else {
+        console.error(`Target element with ID ${targetId} not found.`);
+    }
+}
+
+renderApp(data2Inject1);

@@ -1,5 +1,6 @@
 import express, { Router } from 'express';
 import * as pagesController from '../../controllers/pages/pagesController';
+import path from 'path';
 const router = Router();
 
 router.get('/educar', pagesController.getPage0);
@@ -14,6 +15,6 @@ router.get('/apoio-e-patrocinio', pagesController.getPage8);
 router.get('/contact', pagesController.getPage9);
 router.get('/login', pagesController.getPage10);
 router.get('/registration', pagesController.getPage11);
-
 router.get('/recovery', pagesController.getPage12);
+
 export default router;
