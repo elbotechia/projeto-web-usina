@@ -83,7 +83,7 @@ a.color-green:hover {
     background: var(--color-lightCream) !important;
 }
 
-body {
+.page {
     display: grid;
     height: 100%;
     min-height: 100vh;
@@ -95,6 +95,7 @@ body {
     overflow-x: hidden;
     background: url('./../assets/bg/bgDefault.svg');
     background-repeat: repeat;
+    overflow-x: hidden;
     overflow-y: scroll;
 }
 
@@ -146,9 +147,7 @@ footer {
 }
 
 .showHiddenBtn {
-    position: fixed;
-    top: 3px;
-    right: 20px;
+
     background-color: var(--color-orangeDark);
     color: black;
     position: fixed;
@@ -156,7 +155,13 @@ footer {
     right: 5%;
     transition: .5s;
     border: 1px solid transparent !important;
-    z-index: 1000;
+    z-index: 2000;
+}
+.showHiddenBtn {
+    transition: none;
+    /* Remove transições que possam causar aumento */
+    outline: var(--bs-btn-focus-box-shadow, 0 0 0 0.25rem rgba(13, 110, 253, .25));
+    /* Usa o padrão Bootstrap se disponível */
 }
 
 .showHiddenBtn:hover,
@@ -166,12 +171,11 @@ footer {
     color: var(--color-orangeDark);
     border: none;
     cursor: pointer;
-    transition: .5s;
-    border: 1px solid var(--color-orangeDark) !important;
-    z-index: 1000;
-    outline: none !important;
+    /* Removido outline: none para manter o padrão Bootstrap */
+    box-shadow: none;
+    /* Remove box-shadow customizado, se houver */
+    /* Não altere padding, border ou font-size aqui para evitar aumento */
 }
-
 .slider-title {
     margin: auto;
 }
@@ -407,32 +411,7 @@ footer {
     box-shadow: var(--shadow-route51) inset;
 }
 
-.showHiddenBtn {
-    position: fixed;
-    top: 3px;
-    right: 20px;
-    background-color: var(--color-orangeDark);
-    color: black;
-    position: fixed;
-    top: 8px;
-    right: 5%;
-    transition: .5s;
-    border: 1px solid transparent !important;
-    z-index: 1000;
-}
 
-.showHiddenBtn:hover,
-.showHiddenBtn:active,
-.showHiddenBtn:focus {
-    background-color: var(--color-orangeLight);
-    color: var(--color-orangeDark);
-    border: none;
-    cursor: pointer;
-    transition: .5s;
-    border: 1px solid var(--color-orangeDark) !important;
-    z-index: 1000;
-    outline: none !important;
-}
 
 .slider-title {
     margin: auto;

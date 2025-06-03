@@ -19,8 +19,6 @@ if(currentPage === 'HOME'){
     renderApp(data2Inject)
 }else if(currentPage ===  'TIMELINE')
 
-}
-
 const renderPage = ()=>{
 const currentUrl = window.location.href
 const split1 = currentUrl.split('/')
